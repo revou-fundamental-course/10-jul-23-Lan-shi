@@ -1,0 +1,125 @@
+body {
+    display:flex;
+    flex-direction: column;
+    flex-basis: content;
+    align-items: center;
+    justify-content:center;
+    background: #FFD166;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.container {
+    font-family: 'Montserrat';
+    background: white;
+    width:500px;
+    border-radius:2%;
+    padding: 2%;
+}
+.pr {
+    font-family: 'Rubik';
+}
+.label-form {
+    display:block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+#form, .descriptive {
+    margin: auto;
+}
+form {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #F2F3F5;
+    border-radius: 15px;
+}
+h1 {
+    border-radius: 20px;
+    background-color: #118AB2;
+    color: white;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: auto;
+}
+h3 {
+    border-radius: 20px;
+    background-color: #118AB2;
+    color: white;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: auto;
+}
+#HASIL,#DESC {
+    font-weight:bolder;
+}
+.form-input-number {
+    display:block;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: #118AB2;
+    border: none ;
+    color: #fff;
+    margin-right: 10px;
+}
+.btn-primary:hover{
+    background-color: #0c617e;
+}
+.btn-secondary:hover{
+    background-color: #5a6268;
+}
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    color: #fff;
+}
+
+#result{
+    margin: 20px 0;
+    background-color: #F2F3F5;
+    border-radius: 15px;
+    display: block;
+}
+.form-hasil {
+    text-align: center;
+    font-size: 30px;
+    line-height: 0.75;
+}
+.pr {
+    margin-top: -3px;
+    line-height: 1;
+}
+
+#COMMENT {
+    font-size: 15px;
+}
+.footer {
+    text-align: center;
+    color: #6c757d;
+    font-size:100%;
+    margin-bottom: 0.25rem;
+}
